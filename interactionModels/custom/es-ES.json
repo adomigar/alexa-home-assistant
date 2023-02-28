@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "panel casa",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "OpenPageIntent",
+          "slots": [
+            {
+              "name": "page",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "open page {page}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}
